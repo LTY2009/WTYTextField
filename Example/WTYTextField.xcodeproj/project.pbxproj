@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		19341830A93BD48A1D024D97 /* Pods_WTYTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTYTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD19AC25DD6EE5E15E49E9F /* Pods-WTYTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTYTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43E34175A92891F554659F9C /* WTYTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WTYTextField.podspec; path = ../WTYTextField.podspec; sourceTree = "<group>"; };
-		5737C8E2322446134077BC72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		43E34175A92891F554659F9C /* WTYTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTYTextField.podspec; path = ../WTYTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5737C8E2322446134077BC72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5A90E13A1278902371644A55 /* Pods-WTYTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTYTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WTYTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTYTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A294817C4C90393B0AF2E3EA /* Pods-WTYTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTYTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B39544EF9396A7C0D6F0CC06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B39544EF9396A7C0D6F0CC06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C0C530E1AD3E9A3B54756617 /* Pods_WTYTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTYTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4626F286A051E74FEDD905 /* Pods-WTYTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTYTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				DC4626F286A051E74FEDD905 /* Pods-WTYTextField_Tests.debug.xcconfig */,
 				A294817C4C90393B0AF2E3EA /* Pods-WTYTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 62AFTKT346;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 62AFTKT346;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -482,10 +484,11 @@
 			baseConfigurationReference = 5A90E13A1278902371644A55 /* Pods-WTYTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62AFTKT346;
 				INFOPLIST_FILE = WTYTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whaty.qyDZDX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -497,10 +500,11 @@
 			baseConfigurationReference = 2BD19AC25DD6EE5E15E49E9F /* Pods-WTYTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62AFTKT346;
 				INFOPLIST_FILE = WTYTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whaty.qyDZDX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -511,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC4626F286A051E74FEDD905 /* Pods-WTYTextField_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 62AFTKT346;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A294817C4C90393B0AF2E3EA /* Pods-WTYTextField_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 62AFTKT346;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,6 @@
+framework module WTYTextField {
+  umbrella header "WTYTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

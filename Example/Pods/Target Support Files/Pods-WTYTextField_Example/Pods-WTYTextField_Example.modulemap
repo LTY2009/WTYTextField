@@ -1,0 +1,6 @@
+framework module Pods_WTYTextField_Example {
+  umbrella header "Pods-WTYTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

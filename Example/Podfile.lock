@@ -1,0 +1,16 @@
+PODS:
+  - WTYTextField (0.1.0)
+
+DEPENDENCIES:
+  - WTYTextField (from `../`)
+
+EXTERNAL SOURCES:
+  WTYTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTYTextField: 746ab9ac57d1dc8ead9597b15b8815513ef98a55
+
+PODFILE CHECKSUM: c9dbbfbf702d1e24cf0909e69469b38d8352d660
+
+COCOAPODS: 1.6.1
