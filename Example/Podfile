@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTYTextField_Example' do
+  pod 'WTYTextField', :path => '../'
+
+  target 'WTYTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
