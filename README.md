@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WTYTextField
 
 [![CI Status](https://img.shields.io/travis/litengyue117@163.com/WTYTextField.svg?style=flat)](https://travis-ci.org/litengyue117@163.com/WTYTextField)
@@ -27,3 +28,6 @@ litengyue117@163.com, litengyue117@163.com
 ## License
 
 WTYTextField is available under the MIT license. See the LICENSE file for more info.
+=======
+# WTYTextField
+>>>>>>> 8449c2349633db298e4a0b6cfd8b62c0cc14b056
