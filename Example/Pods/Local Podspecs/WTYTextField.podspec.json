@@ -1,6 +1,6 @@
 {
   "name": "WTYTextField",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "自定义TextField.",
   "description": "TODO: 适合用户名、密码的TextField.",
   "homepage": "https://github.com/LTY2009/WTYTextField",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LTY2009/WTYTextField.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

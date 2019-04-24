@@ -15,7 +15,7 @@ extension UITextField {
     /*
      * 使用runtime给textField添加最大输入数属性,默认15
      */
-    var maxTextNumber: Int {
+    public var maxTextNumber: Int {
         set {
             objc_setAssociatedObject(self, &maxTextNumberDefault, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_COPY_NONATOMIC)
         }
@@ -73,5 +73,25 @@ extension String {
         if !(end <= count) { return self }
         let sInde = index(startIndex, offsetBy: end)
         return String(self[..<sInde])
+    }
+}
+
+extension UIImage {
+    
+    /*
+     * 修改图片主题色
+     */
+    func tintColor(color: UIColor) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(self.size, false, 0.0)
+        color.setFill()
+        let bounds = CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height)
+        UIRectFill(bounds)
+        
+        //Draw the tinted image in context
+        self.draw(in: bounds, blendMode: .destinationIn, alpha: 1.0)
+        let tintedImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return tintedImage!
     }
 }

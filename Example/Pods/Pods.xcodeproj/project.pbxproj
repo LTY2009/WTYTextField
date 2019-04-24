@@ -7,25 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05E36716BCDC8A4896DF1AE21913C9E2 /* WTYTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BCDA2E847C3108B344BAD9BB6EEBB6 /* WTYTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A3F09AD7438703383E267B59209F6CF /* close_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C4A329EC95A2B3F116FF6BCC482C8 /* close_eye.png */; };
-		4388014F833713DC013FD1825525BBE3 /* close_eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1A39D08E24DB4869F6F5FD3F0B6978 /* close_eye@3x.png */; };
+		05E36716BCDC8A4896DF1AE21913C9E2 /* WTYTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91600D67B319748D82380833C8249597 /* WTYTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A3F09AD7438703383E267B59209F6CF /* close_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 524996D0B1737A10B9B97E450573A169 /* close_eye.png */; };
+		2A0CD88086F08CFC1603A2CBBE8E1123 /* WTYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01038B7D9C895E78C6D8B8A6C1C70F28 /* WTYTextField.swift */; };
+		4388014F833713DC013FD1825525BBE3 /* close_eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA396EC28C4AA610300C17C8D4CD1CBE /* close_eye@3x.png */; };
 		4ED6E1ADA3C5839BB4F6D62B7BD4A622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6468AE29A71671E265236298B3DE2121 /* open_eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC3343FD4F596CBA313522EB5A9478 /* open_eye@2x.png */; };
-		6E8ADC81153A6DA612AC44A613A0D71D /* open_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F9D7478AB1AC1477D44A646358709A6 /* open_eye.png */; };
-		70041E8C865207FB8DC72A3CE6D35B7B /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F7536A492F3AAC55E7062BDD510F4 /* UITextField+Extension.swift */; };
+		6468AE29A71671E265236298B3DE2121 /* open_eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 127D2237CA953152924D912633EF80F7 /* open_eye@2x.png */; };
+		6E8ADC81153A6DA612AC44A613A0D71D /* open_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = F8134BE9D7FFF0EE47970802B8B81CD7 /* open_eye.png */; };
 		8605943F22C3794D7DC96101BAB1D8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9AE3FE4F98F7B1E033C82AA512E3B7DB /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6988A8BEC540ED7FC4675920CC62319B /* UITextField+Extension.swift */; };
 		B13050EF2D12143F0F38B8F395203442 /* Pods-WTYTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB52E6170FAE5282D4B8B7332A6EF45 /* Pods-WTYTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4642D78BBB2A4E6C7E507A91FBC2E8C /* Pods-WTYTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F145EBC5479E604E9ECB6CAF509045 /* Pods-WTYTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D5DBB00728590A691993AAA712AB6B /* Pods-WTYTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6253B8A233B6EBC087D70245112538 /* Pods-WTYTextField_Example-dummy.m */; };
-		B8B13DB7BE4C281E12FCE819B998896B /* CommonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0E5914273E9E315E4D1E98515A107 /* CommonHelper.swift */; };
 		C1F6BDB3BCD151D8EC3FAFB6B474CD45 /* Pods-WTYTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB5C81697DA9D3AB468CD968215C7 /* Pods-WTYTextField_Tests-dummy.m */; };
 		C72A1D5921B92213726A1D74B9D8FE3F /* WTYTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D18907E68721D373D0EFCDE83F421EFB /* WTYTextField.bundle */; };
-		C7B8B88236D8AA7F3DE928FB1234A24E /* WTYTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81301741B1404E1943F634DFA559CA64 /* WTYTextField-dummy.m */; };
-		C8619D0F07FA31E85BE777DC76B72B86 /* open_eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4D02997CD7520211D1B1CB0EB9D715 /* open_eye@3x.png */; };
-		CDE9CCED063F1E0A42C93E9474F803D9 /* WTYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230B2AC5F09904A09F81B675BB968EA /* WTYTextField.swift */; };
+		C8619D0F07FA31E85BE777DC76B72B86 /* open_eye@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA471AD434D6081DE3051365F83E507 /* open_eye@3x.png */; };
 		CEA0BEB52CB47DB736B937DA3EF6B61D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		FDF47B95FB7EA4090A1FE9E10966D746 /* close_eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B61A660C95870EEFE75B6886924A2E3 /* close_eye@2x.png */; };
+		F2B5F589B146BE96FE70D09514401907 /* WTYTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8106128F57968F4A6013939E065015 /* WTYTextField-dummy.m */; };
+		FDF47B95FB7EA4090A1FE9E10966D746 /* close_eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1148C57037CC801702221DC53457012D /* close_eye@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,47 +52,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01038B7D9C895E78C6D8B8A6C1C70F28 /* WTYTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WTYTextField.swift; path = WTYTextField/Classes/WTYTextField.swift; sourceTree = "<group>"; };
 		066B36F4446D2FDD38B09DCFE000BB5C /* Pods-WTYTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTYTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0B4E0B7F7CBF2045462CE302496F4275 /* ResourceBundle-WTYTextField-WTYTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WTYTextField-WTYTextField-Info.plist"; sourceTree = "<group>"; };
+		087C1A5E81A1361AD680D8AA9247CC0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0AB35BC77AE0E685EFDC6817DF2EBB8C /* WTYTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WTYTextField.modulemap; sourceTree = "<group>"; };
 		0DB52E6170FAE5282D4B8B7332A6EF45 /* Pods-WTYTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTYTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		104180A5A2D88E14239B3623745710D1 /* Pods-WTYTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYTextField_Tests-Info.plist"; sourceTree = "<group>"; };
-		18BCDA2E847C3108B344BAD9BB6EEBB6 /* WTYTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTYTextField-umbrella.h"; sourceTree = "<group>"; };
-		25D72418573F915EDF2E33BB2EEE3498 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		29E0E5914273E9E315E4D1E98515A107 /* CommonHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonHelper.swift; path = WTYTextField/Classes/CommonHelper.swift; sourceTree = "<group>"; };
+		1148C57037CC801702221DC53457012D /* close_eye@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close_eye@2x.png"; path = "WTYTextField/Assets/close_eye@2x.png"; sourceTree = "<group>"; };
+		127D2237CA953152924D912633EF80F7 /* open_eye@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "open_eye@2x.png"; path = "WTYTextField/Assets/open_eye@2x.png"; sourceTree = "<group>"; };
+		1BEACC3EAE80692165D33E5ABD4A2F60 /* ResourceBundle-WTYTextField-WTYTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WTYTextField-WTYTextField-Info.plist"; sourceTree = "<group>"; };
 		2ACA32E8FF16A72BFEEDCB60339C3A22 /* Pods_WTYTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WTYTextField_Tests.framework; path = "Pods-WTYTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F751A1F81C551C173CF1210B8B4F5FE /* WTYTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WTYTextField.framework; path = WTYTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F666B288CED6563A2395EBFF628F56 /* Pods-WTYTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		397F7536A492F3AAC55E7062BDD510F4 /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "WTYTextField/Classes/UITextField+Extension.swift"; sourceTree = "<group>"; };
-		3B0ED9FBC0A6C43D2BB700FFFE017AB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		40FC3343FD4F596CBA313522EB5A9478 /* open_eye@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "open_eye@2x.png"; path = "WTYTextField/Assets/open_eye@2x.png"; sourceTree = "<group>"; };
-		4F9D7478AB1AC1477D44A646358709A6 /* open_eye.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = open_eye.png; path = WTYTextField/Assets/open_eye.png; sourceTree = "<group>"; };
-		62419A5DAA80DF0D9C5F9010DDB1081F /* WTYTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WTYTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		524996D0B1737A10B9B97E450573A169 /* close_eye.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close_eye.png; path = WTYTextField/Assets/close_eye.png; sourceTree = "<group>"; };
+		5DBAAC75C8F216A8BA0E5FAE500E3BF3 /* WTYTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WTYTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5EA471AD434D6081DE3051365F83E507 /* open_eye@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "open_eye@3x.png"; path = "WTYTextField/Assets/open_eye@3x.png"; sourceTree = "<group>"; };
 		67B9429905FDA02A40F0A71DEDE23E0B /* Pods-WTYTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6988A8BEC540ED7FC4675920CC62319B /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "WTYTextField/Classes/UITextField+Extension.swift"; sourceTree = "<group>"; };
 		73297FA1615D3A14291E21EA28A13C30 /* Pods_WTYTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WTYTextField_Example.framework; path = "Pods-WTYTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B61A660C95870EEFE75B6886924A2E3 /* close_eye@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close_eye@2x.png"; path = "WTYTextField/Assets/close_eye@2x.png"; sourceTree = "<group>"; };
-		7D9C4A329EC95A2B3F116FF6BCC482C8 /* close_eye.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close_eye.png; path = WTYTextField/Assets/close_eye.png; sourceTree = "<group>"; };
-		81301741B1404E1943F634DFA559CA64 /* WTYTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTYTextField-dummy.m"; sourceTree = "<group>"; };
-		890F43F51A7110970267432B6BFB76AF /* WTYTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WTYTextField-Info.plist"; sourceTree = "<group>"; };
+		8172CD55FD83A362E8033266A1088744 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8D8BB5C81697DA9D3AB468CD968215C7 /* Pods-WTYTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTYTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		91600D67B319748D82380833C8249597 /* WTYTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTYTextField-umbrella.h"; sourceTree = "<group>"; };
 		94ECF93F33D419C54E8F612A7BFFC607 /* Pods-WTYTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A8106128F57968F4A6013939E065015 /* WTYTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTYTextField-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F8EE8444F7575BD4E989B4843D17FD3 /* WTYTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTYTextField.xcconfig; sourceTree = "<group>"; };
 		A0F145EBC5479E604E9ECB6CAF509045 /* Pods-WTYTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTYTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A230B2AC5F09904A09F81B675BB968EA /* WTYTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WTYTextField.swift; path = WTYTextField/Classes/WTYTextField.swift; sourceTree = "<group>"; };
+		A941A95F18CFCB73C5E2A1B1001068D9 /* WTYTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTYTextField.xcconfig; sourceTree = "<group>"; };
 		AB44A3D14C318A5A938E8C288B40E230 /* Pods-WTYTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTYTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B4C7805ED4B899567801354F14D364F0 /* WTYTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTYTextField-prefix.pch"; sourceTree = "<group>"; };
 		BE236624A06BFE7FE5D56BAD45CE9A3B /* Pods-WTYTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0867A975495779185460C1AE78FB933 /* WTYTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTYTextField-prefix.pch"; sourceTree = "<group>"; };
 		C224F34A73E9412FD308136D5B22B599 /* Pods-WTYTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C3B6ABA66AD3AF746C0FA42D18ED7186 /* Pods-WTYTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C9A069495B63962A9126AC7C309835DF /* Pods-WTYTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WTYTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		CA396EC28C4AA610300C17C8D4CD1CBE /* close_eye@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close_eye@3x.png"; path = "WTYTextField/Assets/close_eye@3x.png"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF4D02997CD7520211D1B1CB0EB9D715 /* open_eye@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "open_eye@3x.png"; path = "WTYTextField/Assets/open_eye@3x.png"; sourceTree = "<group>"; };
 		D18907E68721D373D0EFCDE83F421EFB /* WTYTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WTYTextField.bundle; path = "WTYTextField-WTYTextField.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F37A8D8A5A86D4B614B58D213BF1F4 /* Pods-WTYTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYTextField_Example-Info.plist"; sourceTree = "<group>"; };
 		D72624A13A15EFD9EB375C14FD10B3BE /* Pods-WTYTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTYTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA1A39D08E24DB4869F6F5FD3F0B6978 /* close_eye@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close_eye@3x.png"; path = "WTYTextField/Assets/close_eye@3x.png"; sourceTree = "<group>"; };
-		E5601204F00A7D9CB509A16DBACA4B4A /* WTYTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WTYTextField.modulemap; sourceTree = "<group>"; };
 		EFF5C1BE3C71CC4DF2D0588A9CEDCB43 /* Pods-WTYTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WTYTextField_Example.modulemap"; sourceTree = "<group>"; };
+		F8134BE9D7FFF0EE47970802B8B81CD7 /* open_eye.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = open_eye.png; path = WTYTextField/Assets/open_eye.png; sourceTree = "<group>"; };
+		FADC4402F997938E2F4906707E9A72E7 /* WTYTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WTYTextField-Info.plist"; sourceTree = "<group>"; };
 		FD6253B8A233B6EBC087D70245112538 /* Pods-WTYTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTYTextField_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +130,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002645329A902C891ED19929A8732116 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B529DFEA32DB0D0C0FD724F8EFE97 /* WTYTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		0B33A4CA46B37037513825DA0B0C686F /* Pods-WTYTextField_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,12 +155,17 @@
 			path = "Target Support Files/Pods-WTYTextField_Example";
 			sourceTree = "<group>";
 		};
-		222D74439F878D427CB94F786BBE1A2D /* Development Pods */ = {
+		1A7B529DFEA32DB0D0C0FD724F8EFE97 /* WTYTextField */ = {
 			isa = PBXGroup;
 			children = (
-				43B34ACF0875AA795FD96D3DF6DA718E /* WTYTextField */,
+				6988A8BEC540ED7FC4675920CC62319B /* UITextField+Extension.swift */,
+				01038B7D9C895E78C6D8B8A6C1C70F28 /* WTYTextField.swift */,
+				8F8EBD9776CA24F2F85C18B136414B4F /* Pod */,
+				8CFEF7F595AE82EB80C2406D257DA315 /* Resources */,
+				A764D7174765388E3C6CFE736712CD54 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = WTYTextField;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		33BAD38043604277516D7A2FEC5D1BD3 /* Products */ = {
@@ -166,20 +177,6 @@
 				2F751A1F81C551C173CF1210B8B4F5FE /* WTYTextField.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		43B34ACF0875AA795FD96D3DF6DA718E /* WTYTextField */ = {
-			isa = PBXGroup;
-			children = (
-				29E0E5914273E9E315E4D1E98515A107 /* CommonHelper.swift */,
-				397F7536A492F3AAC55E7062BDD510F4 /* UITextField+Extension.swift */,
-				A230B2AC5F09904A09F81B675BB968EA /* WTYTextField.swift */,
-				E87BB387A25E7DDBB61C1AB07FCA7FE1 /* Pod */,
-				E9117FC6E3EAA2EEFF45883B7D78E7D8 /* Resources */,
-				643ECEBEFFAB9CDDC6A34CB204A4094E /* Support Files */,
-			);
-			name = WTYTextField;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		50A7CA7785BCB0E7EF12D6DF4232A79A /* Pods-WTYTextField_Tests */ = {
@@ -198,19 +195,27 @@
 			path = "Target Support Files/Pods-WTYTextField_Tests";
 			sourceTree = "<group>";
 		};
-		643ECEBEFFAB9CDDC6A34CB204A4094E /* Support Files */ = {
+		8CFEF7F595AE82EB80C2406D257DA315 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0B4E0B7F7CBF2045462CE302496F4275 /* ResourceBundle-WTYTextField-WTYTextField-Info.plist */,
-				E5601204F00A7D9CB509A16DBACA4B4A /* WTYTextField.modulemap */,
-				9F8EE8444F7575BD4E989B4843D17FD3 /* WTYTextField.xcconfig */,
-				81301741B1404E1943F634DFA559CA64 /* WTYTextField-dummy.m */,
-				890F43F51A7110970267432B6BFB76AF /* WTYTextField-Info.plist */,
-				C0867A975495779185460C1AE78FB933 /* WTYTextField-prefix.pch */,
-				18BCDA2E847C3108B344BAD9BB6EEBB6 /* WTYTextField-umbrella.h */,
+				524996D0B1737A10B9B97E450573A169 /* close_eye.png */,
+				1148C57037CC801702221DC53457012D /* close_eye@2x.png */,
+				CA396EC28C4AA610300C17C8D4CD1CBE /* close_eye@3x.png */,
+				F8134BE9D7FFF0EE47970802B8B81CD7 /* open_eye.png */,
+				127D2237CA953152924D912633EF80F7 /* open_eye@2x.png */,
+				5EA471AD434D6081DE3051365F83E507 /* open_eye@3x.png */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WTYTextField";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8F8EBD9776CA24F2F85C18B136414B4F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				087C1A5E81A1361AD680D8AA9247CC0F /* LICENSE */,
+				8172CD55FD83A362E8033266A1088744 /* README.md */,
+				5DBAAC75C8F216A8BA0E5FAE500E3BF3 /* WTYTextField.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -219,6 +224,21 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A764D7174765388E3C6CFE736712CD54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BEACC3EAE80692165D33E5ABD4A2F60 /* ResourceBundle-WTYTextField-WTYTextField-Info.plist */,
+				0AB35BC77AE0E685EFDC6817DF2EBB8C /* WTYTextField.modulemap */,
+				A941A95F18CFCB73C5E2A1B1001068D9 /* WTYTextField.xcconfig */,
+				9A8106128F57968F4A6013939E065015 /* WTYTextField-dummy.m */,
+				FADC4402F997938E2F4906707E9A72E7 /* WTYTextField-Info.plist */,
+				B4C7805ED4B899567801354F14D364F0 /* WTYTextField-prefix.pch */,
+				91600D67B319748D82380833C8249597 /* WTYTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WTYTextField";
 			sourceTree = "<group>";
 		};
 		C5DBF4C4A583D2809C606960F09EF05B /* Targets Support Files */ = {
@@ -234,7 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				222D74439F878D427CB94F786BBE1A2D /* Development Pods */,
+				002645329A902C891ED19929A8732116 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				33BAD38043604277516D7A2FEC5D1BD3 /* Products */,
 				C5DBF4C4A583D2809C606960F09EF05B /* Targets Support Files */,
@@ -247,29 +267,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E87BB387A25E7DDBB61C1AB07FCA7FE1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3B0ED9FBC0A6C43D2BB700FFFE017AB5 /* LICENSE */,
-				25D72418573F915EDF2E33BB2EEE3498 /* README.md */,
-				62419A5DAA80DF0D9C5F9010DDB1081F /* WTYTextField.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E9117FC6E3EAA2EEFF45883B7D78E7D8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7D9C4A329EC95A2B3F116FF6BCC482C8 /* close_eye.png */,
-				7B61A660C95870EEFE75B6886924A2E3 /* close_eye@2x.png */,
-				DA1A39D08E24DB4869F6F5FD3F0B6978 /* close_eye@3x.png */,
-				4F9D7478AB1AC1477D44A646358709A6 /* open_eye.png */,
-				40FC3343FD4F596CBA313522EB5A9478 /* open_eye@2x.png */,
-				CF4D02997CD7520211D1B1CB0EB9D715 /* open_eye@3x.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +359,7 @@
 			buildConfigurationList = CB60C79AC2A4600854384506E1529077 /* Build configuration list for PBXNativeTarget "WTYTextField" */;
 			buildPhases = (
 				42387DE4EFAE172599671D9CE40242ED /* Headers */,
-				EA6A32B3C9681E52BDC203326A405347 /* Sources */,
+				4CFDFAC0A675E76B58B606BA3140F5B4 /* Sources */,
 				21355BB0FC820303EB12DE44F21EE90E /* Frameworks */,
 				D7C0A67B9E3E8734A743A74D2D2045BC /* Resources */,
 			);
@@ -444,6 +441,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4CFDFAC0A675E76B58B606BA3140F5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE3FE4F98F7B1E033C82AA512E3B7DB /* UITextField+Extension.swift in Sources */,
+				F2B5F589B146BE96FE70D09514401907 /* WTYTextField-dummy.m in Sources */,
+				2A0CD88086F08CFC1603A2CBBE8E1123 /* WTYTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80DE572109BF37F3C9A35ACE75AD87EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,17 +471,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA6A32B3C9681E52BDC203326A405347 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8B13DB7BE4C281E12FCE819B998896B /* CommonHelper.swift in Sources */,
-				70041E8C865207FB8DC72A3CE6D35B7B /* UITextField+Extension.swift in Sources */,
-				C7B8B88236D8AA7F3DE928FB1234A24E /* WTYTextField-dummy.m in Sources */,
-				CDE9CCED063F1E0A42C93E9474F803D9 /* WTYTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,123 +498,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5198590336CB2ABFABCDD1EF7CCCD953 /* Release */ = {
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F8EE8444F7575BD4E989B4843D17FD3 /* WTYTextField.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WTYTextField";
-				INFOPLIST_FILE = "Target Support Files/WTYTextField/ResourceBundle-WTYTextField-WTYTextField-Info.plist";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WTYTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		79F8E87CA39F755DADCF94F08C85B3F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34F666B288CED6563A2395EBFF628F56 /* Pods-WTYTextField_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8EF81577670EB5B2EC5A6FC7D69DA6EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3B6ABA66AD3AF746C0FA42D18ED7186 /* Pods-WTYTextField_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9783F18DE98748951A2E8D378CBBA240 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE236624A06BFE7FE5D56BAD45CE9A3B /* Pods-WTYTextField_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -669,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -682,9 +622,92 @@
 			};
 			name = Debug;
 		};
+		5198590336CB2ABFABCDD1EF7CCCD953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A941A95F18CFCB73C5E2A1B1001068D9 /* WTYTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WTYTextField";
+				INFOPLIST_FILE = "Target Support Files/WTYTextField/ResourceBundle-WTYTextField-WTYTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WTYTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		71863E75D7B9FF1D3E1A668B7CD84D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F666B288CED6563A2395EBFF628F56 /* Pods-WTYTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		753EAFBF2D1571499E3C40445C87A410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B6ABA66AD3AF746C0FA42D18ED7186 /* Pods-WTYTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C2F73FF91A88E2A8CCD0ED6CE2127F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F8EE8444F7575BD4E989B4843D17FD3 /* WTYTextField.xcconfig */;
+			baseConfigurationReference = A941A95F18CFCB73C5E2A1B1001068D9 /* WTYTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -713,7 +736,7 @@
 			};
 			name = Debug;
 		};
-		E91E95D42319C4DD9D887A7F4215C32B /* Release */ = {
+		E300A156D3F26758717AB19EF053FC18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94ECF93F33D419C54E8F612A7BFFC607 /* Pods-WTYTextField_Example.release.xcconfig */;
 			buildSettings = {
@@ -729,7 +752,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WTYTextField_Example/Pods-WTYTextField_Example.modulemap";
@@ -747,69 +770,9 @@
 			};
 			name = Release;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 		F5A83EAE42D7EFE06641B08BA62A3980 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F8EE8444F7575BD4E989B4843D17FD3 /* WTYTextField.xcconfig */;
+			baseConfigurationReference = A941A95F18CFCB73C5E2A1B1001068D9 /* WTYTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WTYTextField";
@@ -825,7 +788,7 @@
 		};
 		FE7F9219CD9F8371F637FE69AED25588 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F8EE8444F7575BD4E989B4843D17FD3 /* WTYTextField.xcconfig */;
+			baseConfigurationReference = A941A95F18CFCB73C5E2A1B1001068D9 /* WTYTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -855,14 +818,47 @@
 			};
 			name = Release;
 		};
+		FF2895E763F563FE8995999595346EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE236624A06BFE7FE5D56BAD45CE9A3B /* Pods-WTYTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTYTextField_Tests/Pods-WTYTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -879,8 +875,8 @@
 		97ACB930974ACD0DF4101DCD5B80C46E /* Build configuration list for PBXNativeTarget "Pods-WTYTextField_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EF81577670EB5B2EC5A6FC7D69DA6EB /* Debug */,
-				E91E95D42319C4DD9D887A7F4215C32B /* Release */,
+				753EAFBF2D1571499E3C40445C87A410 /* Debug */,
+				E300A156D3F26758717AB19EF053FC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -888,8 +884,8 @@
 		98C2191F7380F3077C4F591C42BC9C00 /* Build configuration list for PBXNativeTarget "Pods-WTYTextField_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9783F18DE98748951A2E8D378CBBA240 /* Debug */,
-				79F8E87CA39F755DADCF94F08C85B3F4 /* Release */,
+				FF2895E763F563FE8995999595346EFB /* Debug */,
+				71863E75D7B9FF1D3E1A668B7CD84D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  WTYTextField
 //
-//  Created by litengyue117@163.com on 04/23/2019.
-//  Copyright (c) 2019 litengyue117@163.com. All rights reserved.
+//  Created by LTY on 04/23/2019.
+//  Copyright (c) 2019 LTY. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

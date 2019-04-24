@@ -1,5 +1,5 @@
 PODS:
-  - WTYTextField (0.1.0)
+  - WTYTextField (0.1.1)
 
 DEPENDENCIES:
   - WTYTextField (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WTYTextField: 746ab9ac57d1dc8ead9597b15b8815513ef98a55
+  WTYTextField: 5b629836fcbddc54aca75f22496d2801bf3e5dc2
 
-PODFILE CHECKSUM: c9dbbfbf702d1e24cf0909e69469b38d8352d660
+PODFILE CHECKSUM: 7791aff2dfabd4ff5c45edcae584fb07f228b547
 
 COCOAPODS: 1.6.1
